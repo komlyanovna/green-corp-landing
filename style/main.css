@@ -206,6 +206,38 @@ h3 {
     flex-direction: column;
 }
 
+@keyframe fadeInLeft {
+    0% {
+        opacity: 0.1;
+    }
+
+    70% {
+        opacity: 1;
+    }
+}
+
+.animate__animated.animate__fadeInLeft {
+    --animate-duration: 2s;
+    --animate-name: fadeInLeft;
+    --animate-interation-count: 1;
+}
+
+@keyframe fadeInRight {
+    0% {
+        opacity: 0.1;
+    }
+
+    70% {
+        opacity: 1;
+    }
+}
+
+.animate__animated.animate__fadeInRight {
+    --animate-duration: 2s;
+    --animate-name: fadeInLeft;
+    --animate-interation-count: 1;
+}
+
 /* Планшет */
 
 @media screen and (max-width: 1024px) {
